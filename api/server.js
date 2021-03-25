@@ -1,6 +1,9 @@
 const express = require('express')
 const app = express()
+const cors = require('cors')
 const PORT = 8000
+
+app.use(cors())
 
 let ulmer = {
   'quote': 'Life is uncertain. Eat dessert first.',
@@ -19,6 +22,7 @@ app.listen(PORT, ()=> {
   console.log(`Server running on port ${PORT}`)
 })
 
+// https://www.twitch.tv/videos/960622601?t=2h48m20s
 
 // foodQuotes: [
 //   '\"If more of us valued food and cheer and song above hoarded gold, it would be a merrier world.\"  \n -- J.R.R. Tolkien',
