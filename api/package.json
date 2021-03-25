@@ -1,0 +1,22 @@
+{
+  "name": "foodquotes",
+  "version": "1.0.0",
+  "description": "food qutoer API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaosbreaking1/foodquotesapi.git"
+  },
+  "author": "Sebatian Sohn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaosbreaking1/foodquotesapi/issues"
+  },
+  "homepage": "https://github.com/chaosbreaking1/foodquotesapi#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
